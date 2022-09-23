@@ -1,6 +1,6 @@
 #### Install Package
 
-```ps1
+```
 Install-Module -Name MsrcSecurityUpdates -RequiredVersion 1.9.5s
 ```
 
