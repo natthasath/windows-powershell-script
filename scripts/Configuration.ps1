@@ -7,11 +7,13 @@ $Global:month = Get-Date -Format MMM
 $Global:year = Get-Date -Format yyyy
 $Global:interest = $year + '-' + $month
 
-# MS-Path
+# Handbrake
 $Global:path_video = '..\video'
 
-# MS-Report
+# MSRC Report
 $Global:report_msrc = $root + 'MSRC\report-' + $date + '.html'
-
-# MSRC
 $Global:secret_key = 'IOOcQITxbtHaLJ9QMXqRFm2vfaDhvwIdCQg8v9z2T9n'
+
+# Notification Logon
+$Global:uri = 'https://notify-api.line.me/api/notify'
+$Global:token = 'Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
